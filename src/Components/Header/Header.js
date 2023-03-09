@@ -5,8 +5,13 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='header'>
-            <h1>This the Header !!!</h1>
+
             <img className='logo' src={logo} />
+            <nav>
+                <a href="/shop">Shop</a>
+                <a href="/orders">Orders Review</a>
+                <a href="/inventory">Manage Inventory</a>
+            </nav>
         </div>
     );
 };
