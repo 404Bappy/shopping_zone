@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Shop.css';
 
 
 const Shop = () => {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        fetch('./products.JSON')
+    }, [])
     return (
         <div className='shop-container'>
             <div className="product-container">
