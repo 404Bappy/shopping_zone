@@ -1,0 +1,10 @@
+.product {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid lightgrey;
+    margin-right: 5px;
+}
+
+.product-name {
+    color: rgb(250, 40, 3)
+}
