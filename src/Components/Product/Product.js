@@ -14,6 +14,7 @@ const Product = (props) => {
                 <h4 className='product-name'> {name}</h4>
                 <p><small>By: {seller}</small></p>
                 <p>Price: {price}</p>
+                <p><small>Only {stock} left in stock. Oreder Soon !!</small></p>
             </div>
 
         </div>
