@@ -2,7 +2,7 @@ import React from 'react';
 import './Product.css';
 
 const Product = (props) => {
-    console.log(props.product);
+  
     const { name, img, seller, price, stock } = props.product;
     return (
         <div className='product'>
@@ -15,6 +15,7 @@ const Product = (props) => {
                 <p><small>By: {seller}</small></p>
                 <p>Price: {price}</p>
                 <p><small>Only {stock} left in stock. Oreder Soon !!</small></p>
+                <button className='btn-cart'>Add to Cart</button>
             </div>
 
         </div>

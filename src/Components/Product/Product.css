@@ -9,3 +9,14 @@
     color: rgb(170, 34, 10);
     font-weight: 400;
 }
+
+.btn-cart {
+    width: 150px;
+    height: 27px;
+    background-color: rgb(245, 63, 31);
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
