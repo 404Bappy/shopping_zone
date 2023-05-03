@@ -11,15 +11,33 @@
 }
 
 .cart-container{
-    background-color:lightpink;
+   
     margin-top: 5px;
     padding: 10px;
-    
+
 }
 .cart-container h3 {
     text-align: center;
+    border: 1px solid  rgb(139, 112, 112);
+    background-color:rgb(255, 64, 0);
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 .cart-container h5{
     text-align: center;
+    border: 1px solid  rgb(139, 112, 112);
+    background-color:rgb(255, 64, 0);
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 5px;
+}
+.cart-container p{
+    text-align: center;
+    border: 1px solid  rgb(139, 112, 112);
+    background-color:rgb(86, 110, 11);
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 2px;
 }

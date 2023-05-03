@@ -15,7 +15,7 @@ const Product = (props) => {
         <p>
           <small>By: {seller}</small>
         </p>
-        <p>Price: {price}</p>
+        <p>Price: {price} $</p>
         <p>
           <small>Only {stock} left in stock. Oreder Soon !!</small>
         </p>

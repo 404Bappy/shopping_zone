@@ -12,7 +12,7 @@ function Cart(props) {
       <h3>Order Summary</h3>
       <h5>Items Ordered:{props.cart.length} </h5>
       <br />
-      <p>Total: {total} </p>
+      <p>Total: {total} $ </p>
     </div>
   );
 }
