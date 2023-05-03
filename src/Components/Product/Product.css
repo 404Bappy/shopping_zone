@@ -3,6 +3,7 @@
   gap: 10px;
   border-bottom: 1px solid lightgrey;
   margin-right: 5px;
+ 
 }
 
 .product-name {
@@ -20,3 +21,4 @@
   font-weight: bold;
   cursor: pointer;
 }
+
