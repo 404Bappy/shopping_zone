@@ -1,0 +1,8 @@
+.GT {
+  background-color: rgb(255, 64, 0);
+  text-align: center;
+  border: 1px solid rgb(139, 112, 112);
+  color: aliceblue;
+  border-radius: 4px;
+  padding: 2px;
+}
